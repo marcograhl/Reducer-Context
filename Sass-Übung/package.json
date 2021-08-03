@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "npm-run-all --parallel server sass-dev",
+    "sass-dev": "sass sass:. --watch",
+    "server": "browser-sync start --server --watch --files '*.html, *.css, js/*.js' "
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.4",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.35.2"
+  }
+}
